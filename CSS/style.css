@@ -1,0 +1,111 @@
+:root{
+    --greatColor: black
+}
+.navBar a {
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    text-align: center;
+}
+.navBar {
+    position: fixed;
+    display: inline-block;
+    text-align: center;
+    right: 20px;
+}
+/* * {
+    background-color: whitesmoke; */
+.secHome {
+    border: solid cadetblue;
+    text-align: center;
+    background-color: rgba(87, 72, 52, 0.8);
+}
+#button {
+    position: fixed;
+    bottom: 0px;
+    right: 20px;
+    background-color: burlywood;
+    font-weight: 800;
+    border: solid black;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+#button a {
+    text-decoration: none;
+    background-color: burlywood;
+}
+footer {
+    bottom: 0px;
+    left: 20px;
+    padding: 10px 20px;
+}
+#btnShop {
+    background-color: burlywood;
+    font-weight: 800;
+    border: solid black;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+#btnShop a {
+    text-decoration: none;
+    background-color: burlywood;
+    color: black;
+}
+body{
+    background-image: url(/Photos/Background\ image.jpg);
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr  1fr;
+    grid-template-areas: 
+    "block1 block2 block3"
+    "block4 block5 block6"
+    "block7 block8 block9"
+    "block10 block11 block12"
+}
+#sec1 {
+    grid-area: block4;
+    padding: 5px;
+}
+#sec2 {
+    grid-area: block5;
+    padding: 5px;
+}
+#sec3 {
+    grid-area: block6;
+    padding: 5px;
+}
+#sec4 {
+    grid-area: block7;
+    padding: 5px;
+}
+#sec5 {
+    grid-area: block8;
+    padding: 5px;
+}
+#sec6 {
+    grid-area: block9;
+    padding: 5px;
+}
+h3 p {
+    border: solid cadetblue;
+    text-align: center;
+    background-color: rgba(87, 72, 52, 0.8);
+}
+.submit {
+    background-color: burlywood;
+    font-weight: 800;
+    border: solid black;
+}
+.about {
+    text-align: justify;
+    text-align: left;
+    background-color: burlywood;
+}
+.about p {
+    background-color: burlywood;
+    border: solid cadetblue;
+}
