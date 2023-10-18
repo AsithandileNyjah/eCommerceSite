@@ -170,3 +170,32 @@ td {
 .cart {
     text-align: left;
 }
+@keyframes movement {
+    0%{
+        left: 0px;
+        top: 0px;
+    }
+    25%{
+        left: 500px;
+        top: 0px;
+    }
+    50%{
+        left: 500px;
+        top: 500px;
+    }
+    75%{
+        left: 0px;
+        top: 500px;
+    }
+    100%{
+        left: 0px;
+        top: 0px;
+    }
+}
+.animation {
+    animation-name: movement;
+    animation-duration: 90s;
+    animation-delay: 2s;
+    position: relative;
+    animation-direction: alternate;
+}
