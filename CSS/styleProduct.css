@@ -131,3 +131,29 @@ h1 {
     background-size: 5rem;
     border: solid black;
 }
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+button[type="submit"] {
+    padding: 10px 15px;
+    background-color: burlywood;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    color: #fff;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: burlywood;
+}
