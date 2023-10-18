@@ -33,13 +33,11 @@ footer {
 }
 .container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr  1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: 
     "block1 block2 block3"
     "block4 block5 block6"
-    "block7 block8 block9"
-    "block10 block11 block12"
 }
 #sec1 {
     grid-area: block1;
@@ -75,6 +73,10 @@ h3 p {
     font-family: 'Times New Roman', Times, serif;
     font-weight: 800;
     text-align: center;
+    padding: 25px;
+}
+.navBar a:hover{
+    text-decoration: underline;
 }
 .navBar {
     position: fixed;
@@ -108,7 +110,7 @@ img {
     text-decoration: none;
     transition: background-color 0.5s;
 }
-.TopBTN:hover:hover {
+.TopBTN:hover a:hover {
     background-color: cadetblue;
 }
 .TopBTN a {

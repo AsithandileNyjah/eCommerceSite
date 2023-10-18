@@ -6,12 +6,16 @@
     font-family: 'Times New Roman', Times, serif;
     font-weight: 800;
     text-align: center;
+    padding: 25px;
 }
 .navBar {
     position: fixed;
     display: inline-block;
     text-align: center;
     right: 20px;
+}
+.navBar a:hover{
+    text-decoration: underline;
 }
 #button {
     position: fixed;
@@ -27,6 +31,12 @@
 #button a {
     text-decoration: none;
     background-color: burlywood;
+}
+#button:hover {
+    background-color: aquamarine;
+}
+#button a:hover {
+    background-color: aquamarine;
 }
 footer {
     bottom: 0px;
@@ -111,10 +121,17 @@ article {
     "block4 block5 block6"
     "block7 block8 block9"
 }
-#p1 {
-    grid-area: block7;
+#Ab1 {
+    grid-area: block4;
     border: solid black;
+    padding: 5px;
 }
+#Ab2 {
+    grid-area: block6;
+    border: solid black;
+    padding: 5px;
+}
+
 .secHome {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -127,4 +144,29 @@ article {
 #HomeInfo {
     grid-area: grid4;
     border: solid black;
+}
+th,
+td {
+    border: solid black;
+}
+.Checkout {
+    background-color: burlywood;
+    font-weight: 800;
+    border: solid black;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.Checkout a {
+    text-decoration: none;
+    background-color: burlywood;
+    color: black;
+}
+.total {
+    border: solid black;
+    background-color: burlywood;
+    font-weight: 800;
+}
+.cart {
+    text-align: left;
 }
