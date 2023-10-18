@@ -42,27 +42,27 @@ footer {
     "block10 block11 block12"
 }
 #sec1 {
-    grid-area: block4;
+    grid-area: block1;
     padding: 5px;
 }
 #sec2 {
-    grid-area: block5;
+    grid-area: block2;
     padding: 5px;
 }
 #sec3 {
-    grid-area: block6;
+    grid-area: block3;
     padding: 5px;
 }
 #sec4 {
-    grid-area: block7;
+    grid-area: block4;
     padding: 5px;
 }
 #sec5 {
-    grid-area: block8;
+    grid-area: block5;
     padding: 5px;
 }
 #sec6 {
-    grid-area: block9;
+    grid-area: block6;
     padding: 5px;
 }
 h3 p {
@@ -88,6 +88,44 @@ h3 p {
 #sec4,
 #sec5,
 #sec6 {
-    border: solid black;
+    margin: 15px;
+}
+.container {
     text-align: center;
+}
+img {
+    border: solid black;
+}
+#TopBTN {
+    position: fixed;
+    bottom: 0px;
+    right: 20px;
+    background-color: burlywood;
+    font-weight: 800;
+    border: solid black;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.5s;
+}
+.TopBTN:hover:hover {
+    background-color: cadetblue;
+}
+.TopBTN a {
+    position: fixed;
+    color: black;
+    bottom: 0px;
+    right: 20px;
+    background-color: burlywood;
+    font-weight: 800;
+    border: solid black;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+h1 {
+    text-align: center;
+    background-color: burlywood;
+    background-size: 5rem;
+    border: solid black;
 }

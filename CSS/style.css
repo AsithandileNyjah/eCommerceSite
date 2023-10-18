@@ -13,13 +13,6 @@
     text-align: center;
     right: 20px;
 }
-/* * {
-    background-color: whitesmoke; */
-.secHome {
-    border: solid cadetblue;
-    text-align: center;
-    background-color: rgba(87, 72, 52, 0.8);
-}
 #button {
     position: fixed;
     bottom: 0px;
@@ -108,4 +101,30 @@ h3 p {
 .about p {
     background-color: burlywood;
     border: solid cadetblue;
+}
+article {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "block1 block2 block3"
+    "block4 block5 block6"
+    "block7 block8 block9"
+}
+#p1 {
+    grid-area: block7;
+    border: solid black;
+}
+.secHome {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "grid1 grid2 grid3"
+    "grid4 grid5 grid6"
+    "grid7 grid8 grid9"
+}
+#HomeInfo {
+    grid-area: grid4;
+    border: solid black;
 }
