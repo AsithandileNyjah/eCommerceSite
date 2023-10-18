@@ -1,3 +1,6 @@
+:root {
+    --greatColor: rgba (50, 60, 75, 56)
+}
 .navBar a {
     text-decoration: none;
     font-family: 'Times New Roman', Times, serif;
@@ -183,6 +186,15 @@ td {
     position: relative;
     animation-direction: alternate-reverse;
     animation-iteration-count: infinite;
+}
+.form {
+    text-align: center;
+}
+@media screen and (max-width:950px) {
+    background-color: var(--greatColour);
+}
+@media screen and (min-width:250px) {
+    background-color: var(--greatColour)
 }
 .form {
     text-align: center;
