@@ -11,7 +11,7 @@
 .navBar {
     position: fixed;
     display: inline-block;
-    text-align: center;
+    text-align: left;
     right: 20px;
 }
 .navBar a:hover{
@@ -181,11 +181,11 @@ td {
     }
     50%{
         left: 500px;
-        top: 500px;
+        top: 0px;
     }
     75%{
-        left: 0px;
-        top: 500px;
+        left: 500px;
+        top: 0px;
     }
     100%{
         left: 0px;
@@ -194,8 +194,12 @@ td {
 }
 .animation {
     animation-name: movement;
-    animation-duration: 90s;
-    animation-delay: 2s;
+    animation-duration: 10s;
+    animation-delay: 1s;
     position: relative;
-    animation-direction: alternate;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+}
+.form {
+    text-align: center;
 }
