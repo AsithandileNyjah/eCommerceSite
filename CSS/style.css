@@ -190,7 +190,24 @@ td {
 .form {
     text-align: center;
 }
-@media (max-width: 768px) {
+@media (min-width: 300px) {
+    .HI img {
+        max-width: 80%;
+    }
+
+    .secHome {
+        padding: 10px;
+    }
+
+    #HomeInfo {
+        font-size: 16px;
+    }
+
+    button {
+        padding: 8px 16px;
+    }
+}
+@media (max-width: 700px) {
     .HI img {
         max-width: 80%;
     }

@@ -176,7 +176,29 @@ button[type="submit"]:hover {
     animation-direction: alternate-reverse;
     animation-iteration-count: infinite;
 }
-@media (max-width: 768px) {
+@media (max-width: 700px) {
+    h1.animate {
+        font-size: 24px;
+    }
+
+    input[type="text"] {
+        width: 100%;
+    }
+
+    button[type="submit"] {
+        width: 100%;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    section {
+        margin: 10px;
+        max-width: 100%;
+    }
+}
+@media (min-width: 300px) {
     h1.animate {
         font-size: 24px;
     }
