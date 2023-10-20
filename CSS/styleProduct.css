@@ -125,11 +125,9 @@ img {
     padding: 10px 20px;
     text-decoration: none;
 }
-h1 {
+.animate {
     text-align: center;
-    background-color: burlywood;
     background-size: 5rem;
-    border: solid black;
 }
 .search-container {
     display: flex;
@@ -148,12 +146,55 @@ input[type="text"] {
 button[type="submit"] {
     padding: 10px 15px;
     background-color: burlywood;
-    border: none;
+    border: solid black;
     border-radius: 0 5px 5px 0;
-    color: #fff;
+    color: black;
     cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
 }
 
 button[type="submit"]:hover {
-    background-color: burlywood;
+    background-color: cadetblue;
+}
+@keyframes movement {
+    0%{
+        transform: translateX(100px);
+        transform: translateY(10px);
+       }
+       100%{
+           transform: translateX(100px);
+           transform: translateY(10px);
+           transform: scaleX(1);
+       }
+}
+.animate {
+    animation-name: movement;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    position: relative;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+}
+@media (max-width: 768px) {
+    h1.animate {
+        font-size: 24px;
+    }
+
+    input[type="text"] {
+        width: 100%;
+    }
+
+    button[type="submit"] {
+        width: 100%;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    section {
+        margin: 10px;
+        max-width: 100%;
+    }
 }

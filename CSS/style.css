@@ -53,7 +53,8 @@ footer {
 }
 #btnShop a {
     text-decoration: none;
-    background-color: burlywood;
+    background-color: cadetblue
+    ;
     color: black;
 }
 body{
@@ -134,15 +135,14 @@ article {
 
 .secHome {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     grid-template-areas: 
-    "grid1 grid2 grid3"
-    "grid4 grid5 grid6"
-    "grid7 grid8 grid9"
+    "grid1 grid2"
+    "grid3 grid4"
 }
 #HomeInfo {
-    grid-area: grid4;
+    grid-area: grid3;
     border: solid black;
 }
 th,
@@ -190,12 +190,20 @@ td {
 .form {
     text-align: center;
 }
-@media screen and (max-width:950px) {
-    background-color: var(--greatColour);
-}
-@media screen and (min-width:250px) {
-    background-color: var(--greatColour)
-}
-.form {
-    text-align: center;
+@media (max-width: 768px) {
+    .HI img {
+        max-width: 80%;
+    }
+
+    .secHome {
+        padding: 10px;
+    }
+
+    #HomeInfo {
+        font-size: 16px;
+    }
+
+    button {
+        padding: 8px 16px;
+    }
 }
