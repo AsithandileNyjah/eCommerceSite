@@ -142,6 +142,7 @@ article {
     "grid3 grid4"
 }
 #HomeInfo {
+    column-span: 2;
     grid-area: grid3;
     border: solid black;
 }
@@ -192,7 +193,11 @@ td {
 }
 @media (min-width: 300px) {
     .HI img {
-        max-width: 80%;
+        max-width: 20x;
+        max-height: 20px;
+    }
+    .navBar {
+        max-width: 100%;
     }
 
     .secHome {
@@ -206,14 +211,19 @@ td {
     button {
         padding: 8px 16px;
     }
+    background-color: black;
 }
 @media (max-width: 700px) {
+    .navBar {
+        max-width: 30%;
+    }
     .HI img {
-        max-width: 80%;
+        max-width: 70%;
     }
 
     .secHome {
         padding: 10px;
+        font-size: smaller;
     }
 
     #HomeInfo {
