@@ -193,43 +193,43 @@ td {
 }
 @media (min-width: 300px) {
     .HI img {
-        max-width: 20x;
-        max-height: 20px;
+        max-width: auto;
+        max-height: auto;
     }
     .navBar {
-        max-width: 100%;
+        max-width: auto;
     }
 
     .secHome {
-        padding: 10px;
+        padding: auto;
     }
 
     #HomeInfo {
-        font-size: 16px;
+        font-size: auto;
     }
 
     button {
-        padding: 8px 16px;
+        padding: auto;
     }
 }
 @media (max-width: 700px) {
     .navBar {
-        max-width: 30%;
+        max-width: auto%;
     }
     .HI img {
-        max-width: 70%;
+        max-width: auto;
     }
 
     .secHome {
-        padding: 10px;
-        font-size: smaller;
+        padding: auto;
+        font-size: auto;
     }
 
     #HomeInfo {
-        font-size: 16px;
+        font-size: auto;
     }
 
     button {
-        padding: 8px 16px;
+        padding: auto;
     }
 }

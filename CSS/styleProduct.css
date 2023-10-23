@@ -178,10 +178,10 @@ button[type="submit"]:hover {
 }
 @media screen and (max-width :300px){
     .navBar {
-        max-width: 300px;
-        font-size: 10px;
-        margin-left: 0;
-        margin-right: 0;
+        max-width: auto;
+        font-size: auto;
+        margin-left: auto;
+        margin-right: auto;
     }
     #sec1,
     #sec2,
@@ -189,29 +189,29 @@ button[type="submit"]:hover {
     #sec4,
     #sec5,
     #se6 {
-        margin-left: 0;
-        margin-right: 0;
-        font-size: smaller;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: auto;
     }
     img{
-        max-width: 10px;
-        max-height: 10px;
+        max-width: auto;
+        max-height: auto;
     }
     p{
-    font-size: smaller;
+    font-size: auto;
     }
     .btnShop {
-        padding: 0;
-        margin: 0;
-        border-radius: 0%;
+        padding: auto;
+        margin: auto;
+        border-radius: auto;
     }
 }
 @media screen and (max-width :700px){
     .navBar {
-        max-width: 300px;
-        font-size: 10px;
-        margin-left: 0;
-        margin-right: 0;
+        max-width: auto;
+        font-size: auto;
+        margin-left: auto;
+        margin-right: auto;
     }
     #sec1,
     #sec2,
@@ -219,20 +219,20 @@ button[type="submit"]:hover {
     #sec4,
     #sec5,
     #se6 {
-        margin-left: 0;
-        margin-right: 0;
-        font-size: smaller;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: auto;
     }
     img{
-        max-width: 120px;
-        max-height: 120px;
+        max-width: auto;
+        max-height: auto;
     }
     p{
-    font-size: smaller;
+    font-size: auto;
     }
     .btnShop {
-        padding: 0;
-        margin: 0;
-        border-radius: 0%;
+        padding: auto;
+        margin: auto;
+        border-radius: auto;
     }
 }
