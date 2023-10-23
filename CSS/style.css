@@ -211,7 +211,6 @@ td {
     button {
         padding: 8px 16px;
     }
-    background-color: black;
 }
 @media (max-width: 700px) {
     .navBar {
